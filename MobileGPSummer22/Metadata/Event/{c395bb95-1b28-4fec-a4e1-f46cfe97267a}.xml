@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c395bb95-1b28-4fec-a4e1-f46cfe97267a}">
 		<property name="name">
-			<value>Footsteps</value>
+			<value>Walking sound</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{100dd0b1-4f3a-4ec0-b88c-6a2fa37c1d1d}</destination>
+			<destination>{7e933a21-a049-43f2-91d2-908a270729d6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{d8320913-2482-48aa-bd39-cd408ff47591}</destination>
