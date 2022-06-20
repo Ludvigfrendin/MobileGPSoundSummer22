@@ -115,6 +115,7 @@
 	<object class="MixerBusEffectChain" id="{509c9134-8080-4f97-86ad-bff1c60a1392}">
 		<relationship name="effects">
 			<destination>{ffea2a2b-4d26-44ba-9998-bf1e7a095243}</destination>
+			<destination>{315b80b6-43da-42dd-8f91-da7c7074617e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8276fbec-012f-453a-bb6e-84572052f13a}" />
@@ -131,5 +132,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{b99e0f05-76ed-4141-90ad-cebb41e49f5d}" />
 	<object class="MixerBusFader" id="{ffea2a2b-4d26-44ba-9998-bf1e7a095243}" />
+	<object class="ThreeEQEffect" id="{315b80b6-43da-42dd-8f91-da7c7074617e}">
+		<property name="lowGain">
+			<value>-32</value>
+		</property>
+		<property name="midGain">
+			<value>0.5</value>
+		</property>
+		<property name="highGain">
+			<value>-10.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d77f217f-281a-4547-a480-68e62a133262}" />
 </objects>
