@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{8e864f71-a601-40a8-bb93-d9f8aaa9d5a3}">
+<<<<<<< Updated upstream
 		<property name="builtBanksOutputDirectory">
 			<value>../../game21-2022-0608-ccg-team-burton/Assets/StreamingAssets</value>
 		</property>
+=======
+		<property name="builtBanksOutputDirectory" />
+>>>>>>> Stashed changes
 		<relationship name="masterEventFolder">
 			<destination>{71b1d86f-6b4b-4af7-a074-a1b59a5f7fbf}</destination>
 		</relationship>

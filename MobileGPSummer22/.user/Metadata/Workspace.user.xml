@@ -5,7 +5,11 @@
 			<destination>{35d9f913-0705-4d79-beec-e21c7d067e84}</destination>
 		</relationship>
 		<relationship name="changelist">
+<<<<<<< Updated upstream
 			<destination>{a3fbac1a-781f-4d33-8410-5db3adaa3b0c}</destination>
+=======
+			<destination>{7d9fb9a1-0233-48a1-9e70-93215a412bdf}</destination>
+>>>>>>> Stashed changes
 		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{35d9f913-0705-4d79-beec-e21c7d067e84}">
@@ -13,5 +17,9 @@
 			<destination>{5c0f62e0-c805-4f14-b08b-ef57c38577d3}</destination>
 		</relationship>
 	</object>
+<<<<<<< Updated upstream
 	<object class="WorkspaceChangelist" id="{a3fbac1a-781f-4d33-8410-5db3adaa3b0c}" />
+=======
+	<object class="WorkspaceChangelist" id="{7d9fb9a1-0233-48a1-9e70-93215a412bdf}" />
+>>>>>>> Stashed changes
 </objects>
