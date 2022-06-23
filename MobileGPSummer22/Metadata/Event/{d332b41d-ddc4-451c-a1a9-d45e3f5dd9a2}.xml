@@ -129,7 +129,11 @@ Sissor &amp; acid </value>
 			<destination>{fc8276b7-6e33-4c01-873c-779756593b24}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{3748cbb9-5897-4fd3-86a7-0c8b56958f13}" />
+	<object class="MixerBusPanner" id="{3748cbb9-5897-4fd3-86a7-0c8b56958f13}">
+		<relationship name="modulators">
+			<destination>{f6e732c9-0708-49d9-b63e-a552779efd96}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{e89bd95e-3818-471e-8dfe-b6d785d23bb6}">
 		<relationship name="modulators">
 			<destination>{2d90b07d-444e-400e-ad03-199bc77a6090}</destination>
@@ -166,6 +170,14 @@ Sissor &amp; acid </value>
 	</object>
 	<object class="MixerBusPanner" id="{09959a98-8b5a-46c7-93a0-37daa95a9a7f}" />
 	<object class="MixerBusFader" id="{fc8276b7-6e33-4c01-873c-779756593b24}" />
+	<object class="RandomizerModulator" id="{f6e732c9-0708-49d9-b63e-a552779efd96}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>stereoPan</value>
+		</property>
+		<property name="amount">
+			<value>24</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{2d90b07d-444e-400e-ad03-199bc77a6090}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

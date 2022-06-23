@@ -126,7 +126,11 @@ Acid</value>
 			<destination>{594b353a-5cd6-47ef-bee2-7c95785b57a5}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{3ff173e7-8462-40c1-b698-1757509bb630}" />
+	<object class="MixerBusPanner" id="{3ff173e7-8462-40c1-b698-1757509bb630}">
+		<relationship name="modulators">
+			<destination>{2f9eaf14-7605-4e9e-810b-a4b75456105e}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{889933b1-7fae-4235-8c88-2910588bcdb8}">
 		<relationship name="modulators">
 			<destination>{6c1894b1-6766-4705-9d83-4ee0d67dcdde}</destination>
@@ -148,6 +152,14 @@ Acid</value>
 	<object class="ThreeEQEffect" id="{594b353a-5cd6-47ef-bee2-7c95785b57a5}">
 		<property name="highGain">
 			<value>-12</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{2f9eaf14-7605-4e9e-810b-a4b75456105e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>stereoPan</value>
+		</property>
+		<property name="amount">
+			<value>29</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{6c1894b1-6766-4705-9d83-4ee0d67dcdde}">

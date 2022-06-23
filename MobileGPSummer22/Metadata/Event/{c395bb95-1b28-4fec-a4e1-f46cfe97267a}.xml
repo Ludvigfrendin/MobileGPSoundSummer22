@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c395bb95-1b28-4fec-a4e1-f46cfe97267a}">
 		<property name="name">
-			<value>Walking sound</value>
+			<value>Walking</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -127,7 +127,7 @@
 	<object class="MixerBusPanner" id="{3e8bb8dc-20b1-4afa-ba72-8f7ce628234e}" />
 	<object class="MultiSound" id="{12d7117d-2cb9-4aa9-8114-b5c0dfca5fc0}">
 		<property name="volume">
-			<value>-5</value>
+			<value>6</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{99303596-2b22-485d-bfc1-2901097121d3}</destination>

@@ -129,7 +129,11 @@ Sissor</value>
 			<destination>{9577725e-aa01-414e-a959-74e3fa03936e}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{88500f71-03e6-4016-8b9c-62baf459b2f9}" />
+	<object class="MixerBusPanner" id="{88500f71-03e6-4016-8b9c-62baf459b2f9}">
+		<relationship name="modulators">
+			<destination>{7148c964-76c6-424a-84a2-c4645b6a0581}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{384305dc-e323-4bdf-93cb-bfc0e8f0991b}">
 		<relationship name="modulators">
 			<destination>{f582035a-c2bc-45d3-81bd-fdefa8e0a90a}</destination>
@@ -161,10 +165,18 @@ Sissor</value>
 			<value>-14</value>
 		</property>
 		<property name="midGain">
-			<value>-22</value>
+			<value>-9</value>
 		</property>
 		<property name="highGain">
-			<value>2.5</value>
+			<value>-7.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{7148c964-76c6-424a-84a2-c4645b6a0581}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>stereoPan</value>
+		</property>
+		<property name="amount">
+			<value>30.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{f582035a-c2bc-45d3-81bd-fdefa8e0a90a}">
