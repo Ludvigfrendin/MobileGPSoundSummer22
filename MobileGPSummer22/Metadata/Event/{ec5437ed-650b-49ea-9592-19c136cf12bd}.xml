@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ec5437ed-650b-49ea-9592-19c136cf12bd}">
 		<property name="name">
-			<value>Dying from falling of platform</value>
+			<value>Fall</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7e933a21-a049-43f2-91d2-908a270729d6}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{ed587132-b6fd-43dd-bf0c-3d41613ded64}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{7a2f79b7-6f87-4fa4-b24a-afa940c63c84}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{a018205e-0da0-4a77-b59c-dc0b7923b276}">
@@ -87,7 +90,15 @@
 			<destination>{a018205e-0da0-4a77-b59c-dc0b7923b276}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{8e823e80-b316-4254-8c4e-f35d9e625005}" />
+	<object class="MultiSound" id="{8e823e80-b316-4254-8c4e-f35d9e625005}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{5dfe0d13-c4f4-4015-8f33-b7a7e4f5926f}</destination>
+			<destination>{3dc13b40-d002-4093-861f-459adc647675}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{d95cb827-132b-46aa-b1e1-849fd3b324f4}">
 		<relationship name="effects">
 			<destination>{bef32bec-788f-4886-9f9b-e3dbccbc2cbe}</destination>
@@ -115,6 +126,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8276fbec-012f-453a-bb6e-84572052f13a}" />
+	<object class="SingleSound" id="{5dfe0d13-c4f4-4015-8f33-b7a7e4f5926f}">
+		<relationship name="audioFile">
+			<destination>{99d08d08-d176-40bb-9d1f-73aa92523fc9}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3dc13b40-d002-4093-861f-459adc647675}">
+		<relationship name="audioFile">
+			<destination>{ddb2968e-c237-4356-b888-3f2c4dee086e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{bef32bec-788f-4886-9f9b-e3dbccbc2cbe}" />
 	<object class="MixerBusEffectChain" id="{b4b97231-25ad-4aff-a0bc-83282454892f}">
 		<relationship name="effects">

@@ -8,7 +8,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{100dd0b1-4f3a-4ec0-b88c-6a2fa37c1d1d}</destination>
+			<destination>{45fde870-a743-4754-9616-880787b53f8f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{53258d35-4793-4c0c-9dae-3f8f405e6bd6}</destination>
