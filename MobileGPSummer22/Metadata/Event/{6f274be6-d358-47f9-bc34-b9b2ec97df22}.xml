@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1868d71f-6d6f-43b1-9651-a9f455e975a7}</destination>
+			<destination>{c9951cb1-45f8-4cec-8551-3353d1dad104}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{503eb01f-387d-432f-bafb-32b14cb72860}</destination>
@@ -126,6 +126,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{f81c94db-7761-4cd2-886b-0e529393facf}" />
 	<object class="SingleSound" id="{610d8ea5-5b09-4e99-9369-79bd97016870}">
+		<relationship name="modulators">
+			<destination>{8a1f52a9-5a91-4556-838a-f5efbd7228f4}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{8575611a-6b19-42a4-ac3c-a2632c9ceffc}</destination>
 		</relationship>
@@ -141,6 +144,14 @@
 	<object class="ThreeEQEffect" id="{5f847cc6-55e7-4089-9c4b-3c86154ac816}">
 		<property name="highGain">
 			<value>-14.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{8a1f52a9-5a91-4556-838a-f5efbd7228f4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>7.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{89d01b05-9610-4591-86f3-c31a0b952107}" />
