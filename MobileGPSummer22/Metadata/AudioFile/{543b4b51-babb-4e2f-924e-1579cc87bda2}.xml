@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{8575611a-6b19-42a4-ac3c-a2632c9ceffc}">
+	<object class="AudioFile" id="{543b4b51-babb-4e2f-924e-1579cc87bda2}">
 		<property name="assetPath">
-			<value>SFX/Equip Item 2.wav</value>
+			<value>SFX/Equip Item.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

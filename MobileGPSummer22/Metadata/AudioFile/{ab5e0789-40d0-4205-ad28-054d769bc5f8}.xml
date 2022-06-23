@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{8575611a-6b19-42a4-ac3c-a2632c9ceffc}">
+	<object class="AudioFile" id="{ab5e0789-40d0-4205-ad28-054d769bc5f8}">
 		<property name="assetPath">
-			<value>SFX/Equip Item 2.wav</value>
+			<value>Combat/Sissor attack/Sissor attack (6).wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.6696458333333333</value>
+			<value>0.91070294784580497</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
