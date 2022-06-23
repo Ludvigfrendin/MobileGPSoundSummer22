@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{99d08d08-d176-40bb-9d1f-73aa92523fc9}">
+	<object class="AudioFile" id="{741f9ebb-eaed-4801-92a0-50557db48bd4}">
 		<property name="assetPath">
-			<value>Player/Doll fall.wav</value>
+			<value>SFX/Loot crate destroy.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.4642857142857144</value>
+			<value>3.4910657596371881</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>

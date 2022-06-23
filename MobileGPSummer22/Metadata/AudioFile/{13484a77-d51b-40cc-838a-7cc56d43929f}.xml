@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{13484a77-d51b-40cc-838a-7cc56d43929f}">
 		<property name="assetPath">
-			<value>SFX/Doll damge 3.wav</value>
+			<value>Player/Doll damge 3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

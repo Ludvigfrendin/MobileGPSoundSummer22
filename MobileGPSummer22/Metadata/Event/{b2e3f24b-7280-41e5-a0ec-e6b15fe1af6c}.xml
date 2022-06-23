@@ -5,7 +5,7 @@
 			<value>Loot crate get's destroyed</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9951cb1-45f8-4cec-8551-3353d1dad104}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{07981cae-9296-4008-b993-a1d71905c553}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{7a2f79b7-6f87-4fa4-b24a-afa940c63c84}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{6c4b0168-edcc-472b-be92-fd891af54202}">
@@ -77,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6ccdd947-a26d-4b74-ad00-4742c56489b9}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{085b06a3-9150-425e-9cc6-590d0b73df44}</destination>
 		</relationship>
@@ -87,7 +93,11 @@
 			<destination>{6c4b0168-edcc-472b-be92-fd891af54202}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{99278e94-aca7-4ba0-afc8-bcbfd3b7b3c7}" />
+	<object class="MultiSound" id="{99278e94-aca7-4ba0-afc8-bcbfd3b7b3c7}">
+		<relationship name="sounds">
+			<destination>{5f468e74-3b9f-496c-b31e-d772a3e28ff1}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{f6c4f39f-7bab-45bb-8f3d-408147508087}">
 		<relationship name="effects">
 			<destination>{4c9d53c2-4eaa-46c7-adb5-0d016dd6017e}</destination>
@@ -111,9 +121,15 @@
 	<object class="MixerBusEffectChain" id="{085b06a3-9150-425e-9cc6-590d0b73df44}">
 		<relationship name="effects">
 			<destination>{dc4db0f7-da76-4816-9120-9660ebed8ca2}</destination>
+			<destination>{93435e8c-b33c-41dd-af37-3a43005900eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f3dd473c-9bd1-425b-956d-c8740d737952}" />
+	<object class="SingleSound" id="{5f468e74-3b9f-496c-b31e-d772a3e28ff1}">
+		<relationship name="audioFile">
+			<destination>{741f9ebb-eaed-4801-92a0-50557db48bd4}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{4c9d53c2-4eaa-46c7-adb5-0d016dd6017e}" />
 	<object class="MixerBusEffectChain" id="{47ac3c55-1379-4ea0-8796-998b34cd10f3}">
 		<relationship name="effects">
@@ -122,5 +138,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{7161a10e-5064-4036-b4c8-f4d3173032b4}" />
 	<object class="MixerBusFader" id="{dc4db0f7-da76-4816-9120-9660ebed8ca2}" />
+	<object class="ThreeEQEffect" id="{93435e8c-b33c-41dd-af37-3a43005900eb}">
+		<property name="lowGain">
+			<value>-57</value>
+		</property>
+		<property name="midGain">
+			<value>-4</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{7bf69f94-75a0-4561-9f2e-1109310cf9a3}" />
 </objects>
