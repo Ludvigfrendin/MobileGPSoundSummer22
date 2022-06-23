@@ -5,7 +5,7 @@
 			<value>Dying from falling of platform</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7e933a21-a049-43f2-91d2-908a270729d6}</destination>
@@ -87,11 +87,7 @@
 			<destination>{a018205e-0da0-4a77-b59c-dc0b7923b276}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{8e823e80-b316-4254-8c4e-f35d9e625005}">
-		<relationship name="sounds">
-			<destination>{fad3e475-8d64-47ba-a228-94588dd68aa6}</destination>
-		</relationship>
-	</object>
+	<object class="MultiSound" id="{8e823e80-b316-4254-8c4e-f35d9e625005}" />
 	<object class="MixerBusEffectChain" id="{d95cb827-132b-46aa-b1e1-849fd3b324f4}">
 		<relationship name="effects">
 			<destination>{bef32bec-788f-4886-9f9b-e3dbccbc2cbe}</destination>
@@ -119,11 +115,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8276fbec-012f-453a-bb6e-84572052f13a}" />
-	<object class="SingleSound" id="{fad3e475-8d64-47ba-a228-94588dd68aa6}">
-		<relationship name="audioFile">
-			<destination>{a7d3e240-03ea-4851-a54c-9582bf894b39}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{bef32bec-788f-4886-9f9b-e3dbccbc2cbe}" />
 	<object class="MixerBusEffectChain" id="{b4b97231-25ad-4aff-a0bc-83282454892f}">
 		<relationship name="effects">
