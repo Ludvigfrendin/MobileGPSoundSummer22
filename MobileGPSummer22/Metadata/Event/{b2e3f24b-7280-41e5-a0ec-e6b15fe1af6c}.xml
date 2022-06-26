@@ -142,11 +142,11 @@
 	<object class="MixerBusPanner" id="{7161a10e-5064-4036-b4c8-f4d3173032b4}" />
 	<object class="MixerBusFader" id="{dc4db0f7-da76-4816-9120-9660ebed8ca2}" />
 	<object class="ThreeEQEffect" id="{93435e8c-b33c-41dd-af37-3a43005900eb}">
-		<property name="lowGain">
-			<value>-17.5</value>
-		</property>
 		<property name="midGain">
 			<value>-4</value>
+		</property>
+		<property name="highGain">
+			<value>10</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{b00c226a-4c08-4b11-901d-17164967e25f}">
