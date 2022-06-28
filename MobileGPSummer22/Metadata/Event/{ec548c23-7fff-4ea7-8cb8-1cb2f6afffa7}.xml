@@ -128,7 +128,7 @@
 	<object class="MixerBusPanner" id="{807617c0-df6f-468f-ac58-0cc3f726b98c}" />
 	<object class="SingleSound" id="{f47cdd28-3bfe-42ba-998b-4dc2fa03531f}">
 		<property name="volume">
-			<value>-4</value>
+			<value>2</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{2f81abd9-73b7-4708-addf-08441669818d}</destination>
@@ -139,7 +139,7 @@
 	</object>
 	<object class="MultiSound" id="{6fe8c9a3-1053-485b-bb5e-67d5c624dfd7}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-19</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{5fa891ca-0672-4027-9260-c330d5b75087}</destination>
