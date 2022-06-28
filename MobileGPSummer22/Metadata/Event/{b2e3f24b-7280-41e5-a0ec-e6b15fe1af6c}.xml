@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b2e3f24b-7280-41e5-a0ec-e6b15fe1af6c}">
 		<property name="name">
-			<value>Loot crate get's destroyed</value>
+			<value>LootCrateGetDestroyed</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

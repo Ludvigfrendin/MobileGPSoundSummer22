@@ -7,7 +7,7 @@
 Acid</value>
 		</property>
 		<property name="name">
-			<value>Attack type 2</value>
+			<value>AcidAttack</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

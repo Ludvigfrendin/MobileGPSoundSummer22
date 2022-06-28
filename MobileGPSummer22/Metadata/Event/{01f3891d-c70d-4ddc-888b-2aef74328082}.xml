@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{01f3891d-c70d-4ddc-888b-2aef74328082}">
 		<property name="name">
-			<value>Select button</value>
+			<value>SelectButton</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -126,6 +126,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{10728aa7-6d8c-4f9b-bbad-ee11aa66d46b}" />
 	<object class="SingleSound" id="{8a4272fa-6625-4978-85b6-12933165c79c}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{06a4b8ee-4e94-434a-8f01-cf0596ba533f}</destination>
 		</relationship>

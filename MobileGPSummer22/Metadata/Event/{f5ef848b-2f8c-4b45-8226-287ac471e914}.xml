@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f5ef848b-2f8c-4b45-8226-287ac471e914}">
 		<property name="name">
-			<value>Music Track 2</value>
+			<value>MusicTrack2</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -98,6 +98,9 @@
 	<object class="SingleSound" id="{299b55bf-c4cb-4275-a596-26bb22d18888}">
 		<property name="length">
 			<value>49.490770975056691</value>
+		</property>
+		<property name="volume">
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{8c433f05-f7ac-40d2-8951-b350d8651708}</destination>

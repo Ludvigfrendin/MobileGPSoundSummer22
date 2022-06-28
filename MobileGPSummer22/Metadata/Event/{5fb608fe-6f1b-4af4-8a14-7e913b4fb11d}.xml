@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5fb608fe-6f1b-4af4-8a14-7e913b4fb11d}">
 		<property name="name">
-			<value>Open Gacha crate Type 1</value>
+			<value>OpenLootCrate1</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

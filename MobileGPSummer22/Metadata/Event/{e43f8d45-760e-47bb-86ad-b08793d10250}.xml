@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e43f8d45-760e-47bb-86ad-b08793d10250}">
 		<property name="name">
-			<value>Open Gacha crate Type 2</value>
+			<value>OpenLootCrate2</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{fcc9d5f3-bcde-411e-bbca-608858c8999f}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-26</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7326776d-44ba-4c22-af97-dee6f45d8a23}</destination>

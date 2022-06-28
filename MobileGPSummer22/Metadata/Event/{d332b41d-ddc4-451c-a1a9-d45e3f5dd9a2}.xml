@@ -7,7 +7,7 @@
 Sissor &amp; acid </value>
 		</property>
 		<property name="name">
-			<value>Attack type 3</value>
+			<value>SissorAcidAttack</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

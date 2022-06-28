@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6f274be6-d358-47f9-bc34-b9b2ec97df22}">
 		<property name="name">
-			<value>Equip item</value>
+			<value>EquipItem</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -143,7 +143,7 @@
 	<object class="MixerBusFader" id="{616a59c2-dfbf-4709-920f-d73aa15f82b4}" />
 	<object class="ThreeEQEffect" id="{5f847cc6-55e7-4089-9c4b-3c86154ac816}">
 		<property name="highGain">
-			<value>-2</value>
+			<value>-19.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{8a1f52a9-5a91-4556-838a-f5efbd7228f4}">
