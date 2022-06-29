@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e6a341d8-bda7-40a9-a4d2-adb662790919}">
 		<property name="volume">
-			<value>5.5</value>
+			<value>10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b4a0a89d-5a95-4f2d-b657-0bf489f45e41}</destination>
@@ -151,7 +151,7 @@
 			<value>-35</value>
 		</property>
 		<property name="highGain">
-			<value>-50</value>
+			<value>-32</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{a7a7640c-9ec6-4155-9f3c-402b2fe76337}">
@@ -163,16 +163,25 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{dbe511ce-0edd-4769-b21a-2bcf83de2861}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6fee5d1a-b7ae-413d-9700-f56ef72501a9}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{4f527acd-0aa2-48e0-9362-667982a561da}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{04462aac-7581-4159-943e-9d104f445fd9}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{df5d6b9e-e9b3-40e2-a3af-a0f10420870a}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ebc49b54-897a-45ae-a6e7-34497992bab8}</destination>
 		</relationship>
