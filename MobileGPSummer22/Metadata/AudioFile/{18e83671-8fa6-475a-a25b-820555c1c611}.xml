@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{18e83671-8fa6-475a-a25b-820555c1c611}">
 		<property name="assetPath">
-			<value>Combat/Sissor attack/Sissor attack (3).wav</value>
+			<value>Combat/Player/Sissor attack/Sissor attack (3).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

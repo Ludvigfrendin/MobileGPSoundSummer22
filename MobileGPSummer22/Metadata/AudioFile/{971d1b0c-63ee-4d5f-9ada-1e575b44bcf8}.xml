@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{971d1b0c-63ee-4d5f-9ada-1e575b44bcf8}">
 		<property name="assetPath">
-			<value>Combat/Acid attack/Acid effect (consolidated)_2.wav</value>
+			<value>Combat/Player/Acid attack/Acid effect (consolidated)_2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

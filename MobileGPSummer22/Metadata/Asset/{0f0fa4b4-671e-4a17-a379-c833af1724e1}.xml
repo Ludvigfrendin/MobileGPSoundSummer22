@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{b932d641-fab6-47cf-b8b2-3c3e08615ca1}">
+	<object class="EncodableAsset" id="{0f0fa4b4-671e-4a17-a379-c833af1724e1}">
 		<property name="assetPath">
-			<value>Combat/Player/Acid attack/</value>
+			<value>Combat/Enemy/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
