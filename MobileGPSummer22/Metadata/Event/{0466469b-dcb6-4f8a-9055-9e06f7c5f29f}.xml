@@ -101,6 +101,12 @@
 		<property name="pitch">
 			<value>-5</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{00bfbd89-d3cf-4bcf-b8b9-b63fd63740dd}</destination>
+		</relationship>
+		<relationship name="fadeInCurve">
+			<destination>{32244028-a985-4fa8-ac29-fda305232df0}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{25b5e849-5d3e-450f-b63b-49d577bb41c3}</destination>
 		</relationship>
@@ -130,7 +136,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.47500000000000003</value>
+			<value>0.58999999999999997</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{74d52438-2273-42bb-bc19-571ba19eba1b}</destination>
@@ -148,6 +154,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{63e60bdb-cac4-4c05-8c1a-1b37899298c7}" />
 	<object class="MixerBusFader" id="{85b08f56-3e1c-44b6-8578-0fd7d5329fa7}" />
+	<object class="RandomizerModulator" id="{00bfbd89-d3cf-4bcf-b8b9-b63fd63740dd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="FadeCurve" id="{32244028-a985-4fa8-ac29-fda305232df0}">
+		<relationship name="startPoint">
+			<destination>{fc3f746a-a2d1-4e71-bf19-e0cd7a970a91}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{6b303d4e-905d-4f7e-8ad0-ffc46591ef99}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{25b5e849-5d3e-450f-b63b-49d577bb41c3}">
 		<relationship name="startPoint">
 			<destination>{cc6e235e-abca-4bfb-b19a-a5a8cec5661e}</destination>
@@ -185,13 +207,13 @@
 	<object class="MixerBusFader" id="{c056f1e5-7c68-4e40-a877-570072bd4dfd}" />
 	<object class="ThreeEQEffect" id="{e219148b-371c-4154-b494-8a5be2ed42ac}">
 		<property name="lowGain">
-			<value>-9</value>
+			<value>-80</value>
 		</property>
 		<property name="midGain">
-			<value>1</value>
+			<value>-80</value>
 		</property>
 		<property name="highGain">
-			<value>-8.5</value>
+			<value>-18.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>2400</value>
@@ -202,13 +224,32 @@
 	</object>
 	<object class="PitchShifterEffect" id="{a47fd997-aa71-4e96-ac0a-b7f9c0d2a9e0}">
 		<property name="pitch">
-			<value>1.48000002</value>
+			<value>2</value>
 		</property>
 		<property name="fftSize">
 			<value>540</value>
 		</property>
 		<property name="overlap">
 			<value>22</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fc3f746a-a2d1-4e71-bf19-e0cd7a970a91}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6b303d4e-905d-4f7e-8ad0-ffc46591ef99}">
+		<property name="position">
+			<value>0.14999999999999999</value>
+		</property>
+		<property name="value">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cc6e235e-abca-4bfb-b19a-a5a8cec5661e}">
