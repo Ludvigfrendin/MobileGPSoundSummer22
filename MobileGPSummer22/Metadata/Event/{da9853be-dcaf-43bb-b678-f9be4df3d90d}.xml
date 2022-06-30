@@ -64,7 +64,7 @@ Sissor</value>
 			<destination>{f3c4a7ed-ef40-4237-bce2-f5de168332bd}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{93d85d9a-7445-4509-ac7b-8c2aa729e23e}</destination>
+			<destination>{debf920a-d712-456c-a553-9f7be5427c51}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8a245afb-86ae-41f9-869e-76606fe1a20e}" />
