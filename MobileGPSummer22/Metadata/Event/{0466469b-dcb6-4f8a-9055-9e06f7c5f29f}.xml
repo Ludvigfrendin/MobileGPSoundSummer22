@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{634d5fec-7be2-4e45-a65a-5a7614583e58}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{973892aa-0b63-4c1a-a7aa-c2e36b122934}</destination>
 		</relationship>
@@ -182,18 +185,24 @@
 	<object class="MixerBusFader" id="{c056f1e5-7c68-4e40-a877-570072bd4dfd}" />
 	<object class="ThreeEQEffect" id="{e219148b-371c-4154-b494-8a5be2ed42ac}">
 		<property name="lowGain">
-			<value>1</value>
+			<value>-9</value>
 		</property>
 		<property name="midGain">
 			<value>1</value>
 		</property>
 		<property name="highGain">
-			<value>-80</value>
+			<value>-8.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>2400</value>
+		</property>
+		<property name="highCrossover">
+			<value>65</value>
 		</property>
 	</object>
 	<object class="PitchShifterEffect" id="{a47fd997-aa71-4e96-ac0a-b7f9c0d2a9e0}">
 		<property name="pitch">
-			<value>1.80999994</value>
+			<value>1.48000002</value>
 		</property>
 		<property name="fftSize">
 			<value>540</value>
