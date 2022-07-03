@@ -5,7 +5,7 @@
 			<value>EnemyWalk</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ce557e29-258b-4c07-8623-7fb71923d8eb}</destination>
@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{74d52438-2273-42bb-bc19-571ba19eba1b}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{83e604e2-c28a-4f0d-a5f0-43c69572a0c0}</destination>
+			<destination>{7c9af59f-bc2a-418d-87a9-484acce33697}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{7a2f79b7-6f87-4fa4-b24a-afa940c63c84}</destination>
 		</relationship>
@@ -41,6 +45,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{6e7780b2-0045-4a55-90a9-a6f272ef9d53}">
+		<relationship name="automationTracks">
+			<destination>{ea794a25-8564-4392-bf40-cb9e9a53b8b5}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{634d5fec-7be2-4e45-a65a-5a7614583e58}</destination>
 		</relationship>
@@ -74,6 +81,16 @@
 			<destination>{4418eb7c-5745-43f3-8617-980ca24b795d}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{83e604e2-c28a-4f0d-a5f0-43c69572a0c0}">
+		<relationship name="preset">
+			<destination>{a7b15261-a55e-416d-bee6-c3d7392a1d99}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{7c9af59f-bc2a-418d-87a9-484acce33697}">
+		<relationship name="preset">
+			<destination>{b5b4bc1d-37a2-4f46-ac65-840cb71f3def}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{634d5fec-7be2-4e45-a65a-5a7614583e58}">
 		<property name="volume">
 			<value>4</value>
@@ -86,6 +103,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c69956a3-1b47-4e78-89e9-1e62d9227547}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{ea794a25-8564-4392-bf40-cb9e9a53b8b5}">
+		<relationship name="automator">
+			<destination>{adae7cae-8dd7-46f8-88fc-c8062bde0109}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8f48bb43-48f3-4870-8e2a-035dc4694bf7}">
@@ -156,9 +178,14 @@
 			<destination>{c056f1e5-7c68-4e40-a877-570072bd4dfd}</destination>
 			<destination>{e219148b-371c-4154-b494-8a5be2ed42ac}</destination>
 			<destination>{a47fd997-aa71-4e96-ac0a-b7f9c0d2a9e0}</destination>
+			<destination>{43c93603-2848-445d-b128-172c567e8b40}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{63e60bdb-cac4-4c05-8c1a-1b37899298c7}" />
+	<object class="MixerBusPanner" id="{63e60bdb-cac4-4c05-8c1a-1b37899298c7}">
+		<relationship name="automators">
+			<destination>{adae7cae-8dd7-46f8-88fc-c8062bde0109}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{85b08f56-3e1c-44b6-8578-0fd7d5329fa7}" />
 	<object class="RandomizerModulator" id="{00bfbd89-d3cf-4bcf-b8b9-b63fd63740dd}">
 		<property name="nameOfPropertyBeingModulated">
@@ -237,6 +264,12 @@
 		</property>
 		<property name="overlap">
 			<value>22</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{43c93603-2848-445d-b128-172c567e8b40}" />
+	<object class="Automator" id="{adae7cae-8dd7-46f8-88fc-c8062bde0109}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>surroundPanDirection</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fc3f746a-a2d1-4e71-bf19-e0cd7a970a91}">
