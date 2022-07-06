@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{fcc9d5f3-bcde-411e-bbca-608858c8999f}">
 		<property name="volume">
-			<value>-26</value>
+			<value>-14.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7326776d-44ba-4c22-af97-dee6f45d8a23}</destination>
@@ -95,7 +95,7 @@
 	</object>
 	<object class="MultiSound" id="{39659101-1175-4de9-aa28-8c8f312f2541}">
 		<relationship name="sounds">
-			<destination>{bf57ac4b-ada7-4ab6-aa7b-994ab50f56fc}</destination>
+			<destination>{99ed7436-b7b1-4876-ac9b-7e2a574520c9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{179db61d-1762-460c-8d3c-9fe22eefcfa9}">
@@ -124,12 +124,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{96bc6d7a-8fbf-45bf-bee5-13468ea8dd66}" />
-	<object class="SingleSound" id="{bf57ac4b-ada7-4ab6-aa7b-994ab50f56fc}">
+	<object class="SingleSound" id="{99ed7436-b7b1-4876-ac9b-7e2a574520c9}">
 		<relationship name="modulators">
-			<destination>{46bcb27a-6bb2-410e-a46d-0f3425996272}</destination>
+			<destination>{4fe6bd4a-52e4-411a-aff4-7493e4bbdeb7}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{44b58544-e602-4585-9d7e-1f26f49f99b3}</destination>
+			<destination>{47aa2115-cdc6-41a4-8006-cd640bb39476}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c5db8276-665b-4789-9270-4b90fc500ceb}" />
@@ -140,12 +140,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{b3f726e9-4d9f-4878-b078-9db1e9522441}" />
 	<object class="MixerBusFader" id="{e80cf54c-5448-48dd-bac7-ed134e8d32b2}" />
-	<object class="RandomizerModulator" id="{46bcb27a-6bb2-410e-a46d-0f3425996272}">
+	<object class="RandomizerModulator" id="{4fe6bd4a-52e4-411a-aff4-7493e4bbdeb7}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>4</value>
+			<value>9.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{98c4e65a-73b9-470c-8505-0634aba393c6}" />
