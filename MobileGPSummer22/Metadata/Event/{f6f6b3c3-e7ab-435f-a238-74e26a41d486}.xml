@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f6f6b3c3-e7ab-435f-a238-74e26a41d486}">
 		<property name="name">
-			<value>Open Gacha crate Type 3</value>
+			<value>OpenLootCrate3</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f4f91138-3cdb-44d4-bfc2-202122f68f81}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{48e069cb-b27c-4628-9da2-ebe089c89e41}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{7a2f79b7-6f87-4fa4-b24a-afa940c63c84}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{91699f55-92f3-4f9b-add4-d617ec7d776e}">
@@ -87,7 +90,11 @@
 			<destination>{91699f55-92f3-4f9b-add4-d617ec7d776e}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{f8510593-60a6-482d-8f38-3b3cc3a98448}" />
+	<object class="MultiSound" id="{f8510593-60a6-482d-8f38-3b3cc3a98448}">
+		<relationship name="sounds">
+			<destination>{d5353650-39d4-4c03-b8bd-d7343d1ebc1c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{fea4cc71-d888-4c22-9066-29e5ac04ff60}">
 		<relationship name="effects">
 			<destination>{2701df9f-9f2b-4433-a3db-18e621d580ad}</destination>
@@ -114,6 +121,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ff255aba-b32f-4db0-b90e-28690bfa0076}" />
+	<object class="SingleSound" id="{d5353650-39d4-4c03-b8bd-d7343d1ebc1c}">
+		<relationship name="modulators">
+			<destination>{50e8b34f-507c-41c9-b1e0-45bf0d4c0f8d}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{d56f4175-374e-442c-8935-2ca704b62d8c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{2701df9f-9f2b-4433-a3db-18e621d580ad}" />
 	<object class="MixerBusEffectChain" id="{ff961c0e-e2f4-42db-9cfc-cd4915152a0d}">
 		<relationship name="effects">
@@ -122,5 +137,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{4a33137f-7a23-4797-8c0c-7c045c6617b4}" />
 	<object class="MixerBusFader" id="{1657b982-74c1-4cad-94bf-4df558d2c994}" />
+	<object class="RandomizerModulator" id="{50e8b34f-507c-41c9-b1e0-45bf0d4c0f8d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>14.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6eefcb39-e7e6-4328-83ea-b7c4c0f67494}" />
 </objects>
