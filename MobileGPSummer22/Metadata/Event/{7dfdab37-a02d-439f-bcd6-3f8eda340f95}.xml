@@ -150,13 +150,13 @@
 	<object class="MixerBusFader" id="{b16e4c11-89f3-4323-94e1-09a158f006bb}" />
 	<object class="ThreeEQEffect" id="{1eab4a50-6f46-4168-ab51-f20ed6347b34}">
 		<property name="lowGain">
-			<value>-3</value>
+			<value>-43</value>
 		</property>
 		<property name="midGain">
 			<value>-15</value>
 		</property>
 		<property name="highGain">
-			<value>-3.5</value>
+			<value>-19</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{5e5287c4-08a0-4a47-816c-e05314dc8a50}">
