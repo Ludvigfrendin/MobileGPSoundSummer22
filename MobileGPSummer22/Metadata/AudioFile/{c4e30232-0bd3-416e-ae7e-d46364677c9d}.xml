@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{5b781a2c-928a-4df9-98cb-9a79d193d2e2}">
+	<object class="AudioFile" id="{c4e30232-0bd3-416e-ae7e-d46364677c9d}">
 		<property name="assetPath">
-			<value>RatWalk1.wav</value>
+			<value>Combat/Enemy/RatWalk2/RatWalk1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
