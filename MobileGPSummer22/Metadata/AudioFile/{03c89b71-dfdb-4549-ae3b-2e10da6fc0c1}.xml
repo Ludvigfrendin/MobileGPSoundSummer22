@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6a35e882-31ba-449f-ae16-407a9984b1d4}">
+	<object class="AudioFile" id="{03c89b71-dfdb-4549-ae3b-2e10da6fc0c1}">
 		<property name="assetPath">
-			<value>Combat/Enemy/SoldierWalk/SoldierWalk.wav</value>
+			<value>Combat/Enemy/SoldierWalk/SoldierWalk6.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3.3214285714285716</value>
+			<value>0.73660416666666662</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
