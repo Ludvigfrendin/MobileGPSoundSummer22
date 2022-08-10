@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3573afe4-568e-42ef-a51b-342086f973ab}">
+		<property name="assetPath">
+			<value>RatWalk2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.21429166666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
+		</relationship>
+	</object>
+</objects>
