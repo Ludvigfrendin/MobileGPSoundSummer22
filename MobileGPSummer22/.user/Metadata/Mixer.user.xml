@@ -3,8 +3,8 @@
 	<object class="Mixer" id="{c6cf84ff-7b31-404b-b1b1-5dff35a5ba9e}">
 		<relationship name="vca">
 			<destination>{c5149d8b-9c7b-4ff3-a16e-2010b8e48d6f}</destination>
-			<destination>{580c872d-25a3-4bcc-9088-94bda3f527a9}</destination>
 			<destination>{b17fc78a-8eee-4ae6-84bb-1b7f5183b571}</destination>
+			<destination>{580c872d-25a3-4bcc-9088-94bda3f527a9}</destination>
 		</relationship>
 	</object>
 </objects>
