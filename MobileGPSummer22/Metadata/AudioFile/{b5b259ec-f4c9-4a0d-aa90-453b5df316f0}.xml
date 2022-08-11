@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{42f08614-3601-4638-9940-61348cc91dab}">
+	<object class="AudioFile" id="{b5b259ec-f4c9-4a0d-aa90-453b5df316f0}">
 		<property name="assetPath">
-			<value>Combat/Player/Sissor attack v2/Sissor Attack 2 V2.wav</value>
+			<value>Ui/Diamond Pick up.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.0714285714285714</value>
+			<value>0.61160997732426303</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
