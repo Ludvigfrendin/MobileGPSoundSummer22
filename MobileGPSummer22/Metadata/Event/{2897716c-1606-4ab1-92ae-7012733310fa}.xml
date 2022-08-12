@@ -123,6 +123,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{3dc7e78a-d8a3-4aa1-bb88-6cd5ac23d18e}" />
 	<object class="SingleSound" id="{ef996b61-7360-4919-b01c-964620bacb63}">
+		<relationship name="modulators">
+			<destination>{c6958c32-9921-429f-b994-b1ed5f8b35b6}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{6bf056b3-14b2-4da7-84ad-1ca6f5716e15}</destination>
 		</relationship>
@@ -138,6 +141,14 @@
 	<object class="ThreeEQEffect" id="{284ff0cb-0e1a-4d67-9ec5-1951be684f8d}">
 		<property name="lowGain">
 			<value>-16.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{c6958c32-9921-429f-b994-b1ed5f8b35b6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>5.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{0d0af566-e22f-4fa2-8bf3-d05314ac8dea}" />
