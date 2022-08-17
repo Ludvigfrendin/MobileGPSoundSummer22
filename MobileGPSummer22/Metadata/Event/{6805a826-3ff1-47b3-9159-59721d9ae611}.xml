@@ -80,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{28976fc0-ff2c-46f3-9ec4-4b48003b18bf}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{63f4938b-65da-435e-b917-7c39eb6240c0}</destination>
 		</relationship>
@@ -145,10 +148,13 @@
 	<object class="MixerBusFader" id="{a6556313-f304-4e35-88c9-8a8590f2900d}" />
 	<object class="ThreeEQEffect" id="{0f511614-80e1-402e-b855-f2f0630d0e66}">
 		<property name="lowGain">
-			<value>-12</value>
+			<value>-36</value>
 		</property>
 		<property name="midGain">
 			<value>-23.5</value>
+		</property>
+		<property name="highGain">
+			<value>-16.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{fd86ab65-5686-4abb-bd50-b001303eb5ef}">

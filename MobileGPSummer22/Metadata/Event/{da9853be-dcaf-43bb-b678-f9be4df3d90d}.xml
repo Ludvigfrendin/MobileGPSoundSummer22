@@ -85,6 +85,9 @@ Sissor</value>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{77e5ffb2-5311-41e3-978a-90c680274a1e}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{2afb5ed7-fe5c-4003-b722-ac90b63b26ab}</destination>
 		</relationship>

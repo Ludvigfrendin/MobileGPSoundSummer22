@@ -85,6 +85,9 @@ Sissor &amp; acid </value>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{40692a6b-673b-416a-847d-9692588a3f05}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ce9c38b5-0013-4f13-afe8-605949648fe4}</destination>
 		</relationship>

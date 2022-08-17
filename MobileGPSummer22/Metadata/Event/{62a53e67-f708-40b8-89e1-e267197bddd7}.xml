@@ -92,9 +92,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f5a354d1-f7e9-4453-8c22-97771e87ca29}">
-		<property name="volume">
-			<value>9</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{dd6cd59f-0de7-4351-ad07-9706bc4a090f}</destination>
 		</relationship>
@@ -138,9 +135,7 @@
 			<destination>{fb8a4e75-8f05-4f74-875e-0bf26351eef3}</destination>
 			<destination>{52233000-b10a-4b71-8e88-8338cb641839}</destination>
 			<destination>{2326717e-b899-4542-8ff9-632724c8f799}</destination>
-			<destination>{068bcb14-9e4e-4dbc-b3e4-a96017dcaa7b}</destination>
 			<destination>{2a4e7a9f-d2d3-415a-92cb-27bf7ba2ccdf}</destination>
-			<destination>{8d908d58-cbe6-4663-8fb0-2b899af0aeb2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{990054e0-5d77-48d5-9cdc-fc8842e3c0bd}">
@@ -250,9 +245,7 @@
 			<destination>{a23da3a2-87d9-495b-b27b-dee54304bbab}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{068bcb14-9e4e-4dbc-b3e4-a96017dcaa7b}" />
 	<object class="SilenceSound" id="{2a4e7a9f-d2d3-415a-92cb-27bf7ba2ccdf}" />
-	<object class="SilenceSound" id="{8d908d58-cbe6-4663-8fb0-2b899af0aeb2}" />
 	<object class="Automator" id="{5838636d-f959-4a2f-acf2-3ce50d8cde12}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -274,7 +267,7 @@
 			<value>-53</value>
 		</property>
 		<property name="highGain">
-			<value>2.5</value>
+			<value>-10</value>
 		</property>
 	</object>
 	<object class="DelayEffect" id="{1e17731c-0d0d-4bae-9505-349a7615c194}">
