@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{49c2c4e1-92ca-4fe3-8f8c-f97f0935bd35}">
+		<property name="assetPath">
+			<value>MetaGame/Loot/LootboxRare.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.1964375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f960eedf-c44d-4b32-8b7e-d9f627bd102f}</destination>
+		</relationship>
+	</object>
+</objects>
