@@ -53,7 +53,7 @@
 			<destination>{af1cb179-6d07-40e6-886d-f4068726a236}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{93d85d9a-7445-4509-ac7b-8c2aa729e23e}</destination>
+			<destination>{debf920a-d712-456c-a553-9f7be5427c51}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3eedfe74-2dc9-4710-9d3f-511323a2e315}" />
@@ -92,9 +92,6 @@
 		<property name="length">
 			<value>9.0044583333333339</value>
 		</property>
-		<property name="volume">
-			<value>4</value>
-		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{6f4edc55-5255-437f-9ca8-726d5f277073}</destination>
 		</relationship>
@@ -103,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3dab381f-f171-4853-952f-153a9e953f03}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
