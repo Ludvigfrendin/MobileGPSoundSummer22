@@ -126,7 +126,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ec02bafa-11db-416c-a839-108d4d35cb89}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-12</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c39bf12e-b425-43b8-847b-94cf1e346dc2}</destination>
@@ -201,6 +201,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e2e46554-efaf-4f44-972f-ff3ad5cd8445}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>68.5</value>
+		</property>
 		<property name="length">
 			<value>61.714285714285715</value>
 		</property>
