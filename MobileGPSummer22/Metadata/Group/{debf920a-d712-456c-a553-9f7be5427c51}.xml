@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{debf920a-d712-456c-a553-9f7be5427c51}">
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<property name="name">
 			<value>SFX</value>
 		</property>
@@ -23,6 +26,7 @@
 			<destination>{d144ee6c-0eeb-4b59-94d1-18765af483e0}</destination>
 			<destination>{63f851f2-8cc6-4421-a563-714301e8eb30}</destination>
 			<destination>{a4006191-f130-4797-8e5a-86d2f5551d5c}</destination>
+			<destination>{444afa38-b724-42df-a2d6-1665f6557486}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{518235b5-76cc-4419-bda8-07931fba6b66}" />
@@ -33,4 +37,9 @@
 	</object>
 	<object class="MixerBusFader" id="{63f851f2-8cc6-4421-a563-714301e8eb30}" />
 	<object class="LoudnessMeter" id="{a4006191-f130-4797-8e5a-86d2f5551d5c}" />
+	<object class="CompressorEffect" id="{444afa38-b724-42df-a2d6-1665f6557486}">
+		<property name="gain">
+			<value>8.5</value>
+		</property>
+	</object>
 </objects>
